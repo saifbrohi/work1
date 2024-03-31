@@ -4,6 +4,10 @@ let accountcity ="karachi"
 let accountpassword="12345"
 let accountstate;
 
+
+///hello 
+//world 
+//user
 console.log(accountid);
 
 accountemail = "Ali@gmail.com"
