@@ -1,18 +1,14 @@
-const accountid = "12345"
-let accountemail = "saif@gmail.com"
-let accountpassword = "12345"
-let accountcity = "karachi"
+const accountid  ="78787"
+let accountemail ="saif@gmail.com"
+let accountcity ="karachi"
+let accountpassword="12345"
 let accountstate;
 
-// console.log(accountid);
+console.log(accountid);
 
-// change
-
-// hello world 
-
-accountemail = "ali@gmail.com"
-accountpassword = "444444"
+accountemail = "Ali@gmail.com"
 accountcity = "hyderabad"
+accountpassword="12345"
 
 
-console.table([accountid,accountemail,accountpassword,accountcity,accountstate])
+console.table([accountid,accountemail,accountcity,accountpassword,accountstate])
