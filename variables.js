@@ -12,7 +12,7 @@ let accountstate;
 //world 
 //user
 ////// hello world
-
+ c
 console.log(accountid);
 
 accountemail = "Ali@gmail.com"
