@@ -14,7 +14,7 @@
  const id= Symbol('123')
  const anotherId = Symbol('123')
 
- console.log(id ===  anotherId);
+//  console.log(id ===  anotherId);
 
 const bigNumber= 823874234782333223n    /// its a big number when we check in using typpe of the checking//
 
@@ -33,19 +33,43 @@ const bigNumber= 823874234782333223n    /// its a big number when we check in us
  }
 
  const myFuncion = function(){
-    console.log("hello world");
+    // console.log("hello world");
  }
 
- console.log(typeof bigNumber );  ////show the typeof bigint when our data numbers a large we use bigint
+//  console.log(typeof bigNumber );  ////show the typeof bigint when our data numbers a large we use bigint
 
- console.log(typeof isLoggedIn);   /// isLoggedIn is only return true and false user login in or not
+//  console.log(typeof isLoggedIn);   /// isLoggedIn is only return true and false user login in or not
 
- console.log(typeof ScoreValue) ;  //// return the number from the data 
+//  console.log(typeof ScoreValue) ;  //// return the number from the data 
 
- console.log(typeof id);             //// its return the symbol icon
+//  console.log(typeof id);             //// its return the symbol icon
 
- console.log(typeof outSideTemp);    /// its returnn the object from outSideTemp using 
+//  console.log(typeof outSideTemp);    /// its returnn the object from outSideTemp using 
 
- console.log(typeof userEmail);      /// its return underfined because we dont declure him 
+//  console.log(typeof userEmail);      /// its return underfined because we dont declure him 
 
- console.log(typeof null);         /// null return empty not 0 always remember 
+//  console.log(typeof null);         /// null return empty not 0 always remember 
+
+ /////////////////   Stack (primitive)   Heap (non Primative) /////////////////////
+
+ let firstname = "Saifullah"
+                                    //stack primitive string, Number, Boolean, Null, undefined, Symbol, BigInt  
+                                    //make a copy of the primitive  
+ let lastname =  "Brohi"
+ lastname = "Khan"
+
+ console.log(firstname);
+ console.log(lastname);
+
+
+ let userone = {
+    email: "saifullah@gmail.com",       // make a referance of the memeory and the direct change in the original
+    age: 22,
+ }
+
+ let usertwo=userone
+
+ usertwo.email="ali@gmail.com"
+
+ console.log(userone.email);
+ console.log(usertwo.email);
