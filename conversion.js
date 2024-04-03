@@ -32,6 +32,7 @@ console.log( str1 + str2 + "2");
 let gamecounter=10
 
 
+
 gamecounter++;
 
 console.log(gamecounter);
