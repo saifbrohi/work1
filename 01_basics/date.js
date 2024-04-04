@@ -12,11 +12,11 @@ console.log(newData.toJSON());
 
 console.log(newData.toLocaleString());
 
- let gettime = new Date(2024,0,23)
+ let gettime1 = new Date(2024,0,23)
 
  let gettime = new Date(2024,0,24,5,2)
 
-let gettime = new Date("2024-02-12")
+// let gettime = new Date("2024-02-12")
 
  let createDate = new Date("01-12-2024")
 console.log(createDate.toLocaleString());
