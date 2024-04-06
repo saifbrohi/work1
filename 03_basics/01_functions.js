@@ -51,3 +51,36 @@ function userlogin(username="SAIFU") {
     return `${username} just logged in `
 }
 console.log(userlogin());
+
+function calcultor(val1,val2,...num1){
+
+      return num1
+}
+console.log(calcultor(200,400,500,1000));
+
+const user={
+    username:"Saifullah",
+    price:199
+}
+
+function handleuser(anyobject){
+  console.log(`username is ${anyobject.username}`,`And price is ${anyobject.price}`);
+  
+}
+// handleuser(user)
+
+handleuser(
+    {
+        username:"SAIF",
+        price:999
+    }
+)
+
+const myarr=[200,300,400,600]
+
+function myarray(newarr){
+    return newarr[1]
+}
+// console.log(myarray(myarr));
+
+console.log(myarray([,200,300,400,600]));
