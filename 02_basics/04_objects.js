@@ -44,9 +44,35 @@ const obj2 = {3:  "a",  4: "b"}
 ]
 
 user[1].email
-console.log(Object.keys(tinder));
-console.log(Object.values(tinder));
-console.log(Object.entries(tinder));
+// console.log(Object.keys(tinder));
+// console.log(Object.values(tinder));
+// console.log(Object.entries(tinder));
 
-console.log(tinder.hasOwnProperty('isLoggedIn'));
+// console.log(tinder.hasOwnProperty('isLoggedIn'));
+
+const course={    //////////////// declare the object method /////////
+    coursename:"SAIFULLAH",
+    course:"node js",
+    courseinstrcutor:"Hitesh"
+}
+
+//course.courseinstrcutor
+
+const{courseinstrcutor:instructor}=course
+// console.log(instructor);
+
+// console.log(instructor);
+
+// {
+//     "coures":"node js",
+//     "name":"SAIFULLAH",
+//     "couresename":"alj"
+
+// }
+
+[
+    {},
+    {},
+    {}
+]
 
