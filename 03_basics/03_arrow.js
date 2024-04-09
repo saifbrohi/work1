@@ -40,6 +40,6 @@ const addtwo =(num1,num2) => {username:"SAIFULLAH"}
 
 console.log(addtwo(3,4));
 
-const myarr=[2,3,4,5,7]
+// const myarr=[2,3,4,5,7]
 
-myarr.foreach()
+// myarr.foreach()
