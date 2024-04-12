@@ -47,3 +47,13 @@ const myNums = [1,2,3,4,5,6,7,8,9,10]
         { tittle:'book seven',genre:'sciense',publish:1990,
         edition:1996},
     ]
+    
+  let userbooks = books.filter( (bk) =>bk.genre ==='history')
+
+//   userbooks = books((bk)=>bk.publish >=1995 && bk.genre ==='history')
+
+userbooks = books.filter( (bk) => {
+   return bk.publish >= 1995 && bk.genre ==='history'
+})
+  
+  console.log(userbooks); 
